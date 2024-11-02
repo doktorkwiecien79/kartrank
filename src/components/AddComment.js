@@ -1,33 +1,25 @@
 import React, { useState, useContext, useRef } from 'react';
 import { CommentContext } from '../context/CommentContext';
+import { v4 as uuidv4 } from 'uuid';
+import axios from 'axios';
 
 
-export default function AddComment({ pagePath, parentId }) {
+export default function AddComment({ pageName, parentId }) {
+  console.log("AddComment: ", pageName);
   const [text, setText] = useState('Wpisz komentarz')
   const [name, setName] = useState('Wpisz nick')
   const formRef = useRef(null);
   
   const { submitComment, removeComment } = useContext(CommentContext); 
 
-
-// Function to generate the next ascending ID for replies only
-const getNextCommentId = () => {
-  const allComments = Object.values(comments).flat();
-  if (allComments.length === 0) return 1; // If no comments exist, start at 1
-
-  // Get the highest existing id and add 1 to generate the next id for replies
-  const highestId = Math.max(...allComments.map(comment => comment.id));
-  return highestId + 1;
-};
-
-
 const handleSubmit = async (event) => {
     event.preventDefault(); 
     if (text !== '' && name !== '') {
       const newComment = {
-        id: getNextCommentId(), // If root comment, id is null, otherwise get next id
+        id: uuidv4(),
         parentId,
         name,
+        page: pageName,
         message: text,
         createdAt: new Date(),
       };
@@ -36,18 +28,17 @@ const handleSubmit = async (event) => {
       
       try {
         // call an API to change the database
-        const res = await fetch('/api/comments', {
+        const res = await axios('/api/comments', {
           method: 'POST',
           header: {
             'Content-Type': 'application/json',
           },
-          body: {
-            ...newComment
-          }
+          data: newComment,
         });
       }
       catch (err) {
         // on catch, call function to remove comment locally
+        console.log(err);
         removeComment(newComment);
       }
       // Clear the form fields

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@drizzle-team/studio": "^1.0.0",
     "@heroicons/react": "^2.1.5",
     "@vercel/analytics": "^1.1.1",
     "@vercel/postgres": "^0.9.0",
@@ -25,7 +26,8 @@
     "react-player": "^2.14.1",
     "react-responsive-carousel": "^3.2.23",
     "react-select": "^5.8.0",
-    "react-youtube": "^10.1.0"
+    "react-youtube": "^10.1.0",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

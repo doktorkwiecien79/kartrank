@@ -4,8 +4,8 @@ import AddComment from './AddComment'
 import React, { useState, useContext } from 'react';
 import { CommentContext } from '../context/CommentContext';
 
-export function Comment({ id, name, createdAt, message }) {
-
+export function Comment({ id, name, createdAt, message, pageName }) {
+    console.log("Comment: ", pageName);
     const [isReplying, setIsReplying] = useState(false);
     const { comments } = useContext(CommentContext);
 
@@ -31,14 +31,15 @@ export function Comment({ id, name, createdAt, message }) {
                     </div>
                     {isReplying && (
                         <div className='mt-4'>
-                            <AddComment parentId={id} />
+                            {/* PAGE_NAME */}
+                            <AddComment parentId={id} pageName={pageName} />
                         </div>
                     )}
                 </div>
             </div>
             { comments[id]?.length > 0 && (
                 <div className='pl-12'>
-                    <CommentSection parent={id}/>
+                    <CommentSection parent={id} pageName={pageName} />
                 </div>
             )}
         </>

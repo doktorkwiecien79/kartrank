@@ -16,7 +16,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 const Post = ({ postData }) => {
   const router = useRouter();
-  const [page, setPage] = useState(router.asPath);
+  const [pageUrl, setPageUrl] = useState(router.asPath);
+  console.log("Post: ", pageUrl);
 
   if (router.isFallback) {
     return <div>Loading...</div>;
@@ -49,10 +50,10 @@ const Post = ({ postData }) => {
         )}
         </div>
         <div className="w-full px-10 lg:px-20">
-          <AddComment parentId={null} pagePath={page} />
+          <AddComment parentId={null} pageName={pageUrl} />
         </div>
         <div className="w-full px-10 lg:px-20">
-          <CommentSection parent={null} />
+          <CommentSection parent={null} pageName={pageUrl} />
         </div>
       </div>
     </main>

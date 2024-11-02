@@ -15,6 +15,20 @@
       "when": 1726298129424,
       "tag": "0001_small_fabian_cortez",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1729926554130,
+      "tag": "0002_new_terror",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1729926588981,
+      "tag": "0003_melted_multiple_man",
+      "breakpoints": true
     }
   ]
 }

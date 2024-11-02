@@ -1,60 +1,51 @@
-import { createContext, useState } from 'react';
+import { createContext, useState, useEffect } from 'react';
+import axios from 'axios';
 
 export const CommentContext = createContext();
 
 export const CommentProvider = ({ children }) => {
-  const [comments, setComments] = useState({
-    null: [
-        {
-        id: 1,
-        name: "Arek",
-        message: "Ciekawy arykuł",
-        createdAt: new Date("2022-04-28T11:57:13.911Z"),
-        likeCount: 5,
-        wasLikedByMe: true,
-        },
-        {
-        id: 2,
-        name: "Maciek",
-        message: "Dobra robota!",
-        createdAt: new Date("2022-04-26T20:45:08.000Z"),
-        likeCount: 8,
-        wasLikedByMe: false,
-        },
-        {
-        id: 3,
-        name: "Bartek",
-        message: "A mi się nie podoba",
-        createdAt: new Date("2022-04-25T07:40:51.198Z"),
-        likeCount: 0,
-        wasLikedByMe: false,
-        },
-    ],
-    2: [
-        {
-        id: 4,
-        name: "Cezary",
-        message: "Dobrze mówisz",
-        createdAt: new Date("2022-04-29T18:25:43.511Z"),
-        likeCount: 3,
-        wasLikedByMe: false,
-        },
-    ]
-  });
+  const [fetchedComments, setFetchedComments] = useState([]);
+
+  let comments = {};
+
+  fetchedComments.forEach(comment => {
+    if (!comments[comment.parentId]) {
+      comments[comment.parentId] = [comment];
+    }
+    else {
+      comments[comment.parentId].push(comment);
+    }
+  })
+
+  console.log(comments);
+
+  useEffect(() => {
+    const fetchComments = async () => {
+      try {
+        const res = await axios.get('/api/comments');
+        console.log("res.data: ", res.data);
+        setFetchedComments(res.data);
+      } catch (err) {
+        console.log(err);
+      }
+    };
+
+    fetchComments();
+  }, [])
 
   const submitComment = (newComment) => {
-    setComments((prevComments) => ({
-      ...prevComments,
-      [newComment.parentId]: [...(prevComments[newComment.parentId] || []), newComment],
-    }));
+    setFetchedComments((prevComments) => (
+      [...prevComments, newComment]
+    ));
   };
 
   const removeComment = (oldComment) => {
-    // change comments (delete oldComment)
+    const newItems = fetchedComments.filter(fetchedComment => fetchedComment !== oldComment);
+    setFetchedComments(newItems);
   }
 
   return (
-    <CommentContext.Provider value={{ comments, submitComment }}>
+    <CommentContext.Provider value={{ comments, submitComment, removeComment }}>
       {children}
     </CommentContext.Provider>
   );

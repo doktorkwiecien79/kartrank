@@ -1,0 +1,1 @@
+ALTER TABLE "comment" ALTER COLUMN "created_at" DROP NOT NULL;
