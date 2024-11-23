@@ -21,6 +21,7 @@ export default async function handler(req, res) {
     }
   }
   else if (req.method === 'GET') {
+    console.log("GET ALL");
     try {
       const comments = await db.select().from(comment);
       res.status(200).json(comments);

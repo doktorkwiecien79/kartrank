@@ -3,8 +3,12 @@ import { useContext } from 'react';
 import { CommentContext } from '../context/CommentContext';
 
 export function CommentSection({ parent, pageName }) {
-    console.log("CommentSection: ", pageName);
-    const { comments } = useContext(CommentContext);
+    let { comments } = useContext(CommentContext);
+
+    for (const key in comments) {
+        comments[key] = comments[key].filter(element => element.page === pageName);
+    }
+
     return (
     <div className='p-2 w-full'>
 

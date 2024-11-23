@@ -7,13 +7,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Test() {
-
-  useEffect(() => {
-    axios.get('/api/comments').then(response => {
-      console.log(response);
-    })
-  }, []);
-
     return (
       <main className={`flex-col items-center ml-8 mr-8 ${inter.className}`}>
         <header className="text-center mb-5 mt-2 font-bold">

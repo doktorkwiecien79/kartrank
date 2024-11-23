@@ -9,13 +9,16 @@ export function Comment({ id, name, createdAt, message, pageName }) {
     const [isReplying, setIsReplying] = useState(false);
     const { comments } = useContext(CommentContext);
 
+    for (const key in comments) {
+        comments[key] = comments[key].filter(element => element.page === pageName);
+    }
+
     const handleReplyClick = () => {
         setIsReplying((prevState) => !prevState);
     };
 
     return (
         <>
-          
             <div className='border rounded-lg p-2 w-full'>
                 <div className='p-4'>
                     <div className='flex justify-between'>

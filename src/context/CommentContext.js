@@ -6,7 +6,7 @@ export const CommentContext = createContext();
 export const CommentProvider = ({ children }) => {
   const [fetchedComments, setFetchedComments] = useState([]);
 
-  let comments = {};
+  let comments = new Map();
 
   fetchedComments.forEach(comment => {
     if (!comments[comment.parentId]) {
@@ -17,7 +17,7 @@ export const CommentProvider = ({ children }) => {
     }
   })
 
-  console.log(comments);
+  console.log("Komentarze: ", comments);
 
   useEffect(() => {
     const fetchComments = async () => {
