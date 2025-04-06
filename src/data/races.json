@@ -18,8 +18,17 @@
         "imageUrl": "/posts/races/Poznan1/poznan1cover.png"
     },
     {
-        "url": "/posts/races/Silesia1",
+        "url": "/posts/races/Poznan25_1",
         "rank": 3,
+        "imageUrl": "/posts/races/Poznan25_1/20250406_131712COVER.jpg",
+        "name": "Tor Pozna\u0144",
+        "date": "2025-04-05",
+        "city": "Pozna\u0144",
+        "countrycode": "PL"
+    },
+    {
+        "url": "/posts/races/Silesia1",
+        "rank": 4,
         "name": "Tor Silesia",
         "date": "2024-03-2o",
         "city": "Kamie\u0144 \u015al\u0105ski",
