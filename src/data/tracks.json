@@ -165,8 +165,30 @@
         "countrycode": "PL"
     },
     {
-        "url": "/posts/tracks/SainzLaRojas",
+        "url": "/posts/tracks/RedBullRing",
         "rank": 16,
+        "imageUrl": "/posts/tracks/RedBullRing/20250718_COVER.jpg",
+        "name": "Red Bull Ring",
+        "type": "Outdoor",
+        "date": "2025-07-18",
+        "score": "3.5",
+        "city": "Spielberg",
+        "countrycode": "AT"
+    },
+    {
+        "url": "/posts/tracks/RotaxLinz",
+        "rank": 17,
+        "imageUrl": "/posts/tracks/RotaxLinz/20250721_175345COVER.jpg",
+        "name": "Rotax MAX Dome Linz",
+        "type": "Indoor",
+        "date": "2025-07-21",
+        "score": "5.5",
+        "city": "Linz",
+        "countrycode": "AT"
+    },
+    {
+        "url": "/posts/tracks/SainzLaRojas",
+        "rank": 18,
         "imageUrl": "/posts/tracks/SainzLaRojas/lrCOVER.png",
         "name": "Sainz LaRojas",
         "type": "Indoor",
@@ -177,7 +199,7 @@
     },
     {
         "url": "/posts/tracks/SainzMadrid",
-        "rank": 17,
+        "rank": 19,
         "imageUrl": "/posts/tracks/SainzMadrid/csCOVER.png",
         "name": "Sainz Madrid",
         "type": "Mixed",
@@ -188,7 +210,7 @@
     },
     {
         "url": "/posts/tracks/SouthGarda",
-        "rank": 18,
+        "rank": 20,
         "imageUrl": "/posts/tracks/SouthGarda/IMG_9613COVER.jpg",
         "name": "South Garda Karting",
         "type": "Outdoor",
@@ -199,7 +221,7 @@
     },
     {
         "url": "/posts/tracks/TSKdocklands",
-        "rank": 19,
+        "rank": 21,
         "imageUrl": "/posts/tracks/TSKdocklands/Screenshot 2024-01-14 102823cover.png",
         "name": "TeamSport Docklands",
         "type": "Indoor",
@@ -210,7 +232,7 @@
     },
     {
         "url": "/posts/tracks/WallRav",
-        "rank": 20,
+        "rank": 22,
         "imageUrl": "/posts/tracks/WallRav/IMG_0047COVER.jpg",
         "name": "WallRav Racing",
         "type": "Outdoor",
@@ -221,7 +243,7 @@
     },
     {
         "url": "/posts/tracks/gass74",
-        "rank": 21,
+        "rank": 23,
         "imageUrl": "/posts/tracks/gass74/gass1COVER.jpg",
         "name": "Gass74 Karting",
         "type": "Outdoor",
@@ -232,7 +254,7 @@
     },
     {
         "url": "/posts/tracks/ikbarcelona",
-        "rank": 22,
+        "rank": 24,
         "imageUrl": "/posts/tracks/ikbarcelona/barcelona1cover.jpg",
         "name": "Indoor Karting Barcelona",
         "type": "Indoor",
@@ -243,7 +265,7 @@
     },
     {
         "url": "/posts/tracks/karting932",
-        "rank": 23,
+        "rank": 25,
         "imageUrl": "/posts/tracks/karting932/alicante1cover.jpg",
         "name": "Karting 932 Alicante",
         "type": "Indoor",
@@ -254,7 +276,7 @@
     },
     {
         "url": "/posts/tracks/krakowWRT",
-        "rank": 24,
+        "rank": 26,
         "imageUrl": "/posts/tracks/krakowWRT/krakowWRT1cover.jpg",
         "name": "Krak\u00f3w WRT",
         "type": "Indoor",
