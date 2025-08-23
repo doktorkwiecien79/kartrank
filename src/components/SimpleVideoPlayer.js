@@ -13,9 +13,16 @@ export default function SVP({ images }) {
 
     return (
         <div className='flex justify-center flex-col items-center'>
-            <div>
+
+            {images.filter(({ src }) => shouldDisplayItem(src)).length > 0 && (
+                <div>
                 <p style={{ fontWeight: 'bold' }}>Zapraszam Was na szybkie kółko</p>
-            </div>
+                </div>
+            )}
+
+
+
+
 
             <div className="w-full flex justify-center">
                 <div className="carousel rounded-box w-4/5 mx-auto">
