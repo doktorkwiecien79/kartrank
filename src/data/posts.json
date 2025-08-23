@@ -12,7 +12,12 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/A1Karting_Wawa/A1longISLAP.mp4",
+                "src": "/posts/tracks/A1Karting_Wawa/A1longDRUGILAPfhd.mp4",
+                "alt": "Video/Mp4 for A1Karting_Wawa",
+                "type": "video/mp4"
+            },
+            {
+                "src": "/posts/tracks/A1Karting_Wawa/A1longFASTLAP.mp4",
                 "alt": "Video/Mp4 for A1Karting_Wawa",
                 "type": "video/mp4"
             },
@@ -194,7 +199,7 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/E1_Kielce/e1ISLAP.mp4",
+                "src": "/posts/tracks/E1_Kielce/e1FASTLAP.mp4",
                 "alt": "Video/Mp4 for E1_Kielce",
                 "type": "video/mp4"
             },
@@ -235,7 +240,7 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/E1_Pozna\u0144/LAPvideo.mp4",
+                "src": "/posts/tracks/E1_Pozna\u0144/FASTLAPvideo.mp4",
                 "alt": "Video/Mp4 for E1_Pozna\u0144",
                 "type": "video/mp4"
             }
@@ -435,7 +440,7 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/KartbahnLoschen/KartBahnISLAP.mp4",
+                "src": "/posts/tracks/KartbahnLoschen/KartBahnFASTLAP.mp4",
                 "alt": "Video/Mp4 for KartbahnLoschen",
                 "type": "video/mp4"
             }
@@ -497,7 +502,7 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/MotodromPorec/porecISLAP.mp4",
+                "src": "/posts/tracks/MotodromPorec/porecFASTLAP.mp4",
                 "alt": "Video/Mp4 for MotodromPorec",
                 "type": "video/mp4"
             }
@@ -532,14 +537,14 @@
                 "type": "image"
             },
             {
+                "src": "/posts/tracks/PolePositionJanki/FASTLAPvideo.mp4",
+                "alt": "Video/Mp4 for PolePositionJanki",
+                "type": "video/mp4"
+            },
+            {
                 "src": "/posts/tracks/PolePositionJanki/IMG_7862.jpg",
                 "alt": "Image for PolePositionJanki",
                 "type": "image"
-            },
-            {
-                "src": "/posts/tracks/PolePositionJanki/LAPvideo.mp4",
-                "alt": "Video/Mp4 for PolePositionJanki",
-                "type": "video/mp4"
             },
             {
                 "src": "/posts/tracks/PolePositionJanki/ppj6.png",
@@ -565,6 +570,11 @@
     },
     "Portimao": {
         "images": [
+            {
+                "src": "/posts/tracks/Portimao/FASTLAPvideo.mp4",
+                "alt": "Video/Mp4 for Portimao",
+                "type": "video/mp4"
+            },
             {
                 "src": "/posts/tracks/Portimao/IMG_8426.jpg",
                 "alt": "Image for Portimao",
@@ -609,11 +619,6 @@
                 "src": "/posts/tracks/Portimao/IMG_8479.jpg",
                 "alt": "Image for Portimao",
                 "type": "image"
-            },
-            {
-                "src": "/posts/tracks/Portimao/LAPvideo.mp4",
-                "alt": "Video/Mp4 for Portimao",
-                "type": "video/mp4"
             }
         ],
         "textParts": [
@@ -713,12 +718,12 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/ProkartRaceLand/prokartindoor.mp4",
+                "src": "/posts/tracks/ProkartRaceLand/prokarFASTLAPoutdoor.mp4",
                 "alt": "Video/Mp4 for ProkartRaceLand",
                 "type": "video/mp4"
             },
             {
-                "src": "/posts/tracks/ProkartRaceLand/prokartISLAPoutdoor.mp4",
+                "src": "/posts/tracks/ProkartRaceLand/prokartindoorDRUGILAP.mp4",
                 "alt": "Video/Mp4 for ProkartRaceLand",
                 "type": "video/mp4"
             },
@@ -784,7 +789,7 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/RCWwarszawa/rcwISLAP140625.mp4",
+                "src": "/posts/tracks/RCWwarszawa/rcwFASTLAP140625.mp4",
                 "alt": "Video/Mp4 for RCWwarszawa",
                 "type": "video/mp4"
             }
@@ -825,7 +830,7 @@
                 "type": "video/mp4"
             },
             {
-                "src": "/posts/tracks/RacingKart/racingkartislap.mp4",
+                "src": "/posts/tracks/RacingKart/racingkartFASTLAP.mp4",
                 "alt": "Video/Mp4 for RacingKart",
                 "type": "video/mp4"
             }
@@ -914,7 +919,7 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/RedBullRing/RBRislap.mp4",
+                "src": "/posts/tracks/RedBullRing/RBRFASTLAP.mp4",
                 "alt": "Video/Mp4 for RedBullRing",
                 "type": "video/mp4"
             }
@@ -989,7 +994,7 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/RotaxLinz/RotaxLinzIslap.mp4",
+                "src": "/posts/tracks/RotaxLinz/RotaxLinzFASTLAP.mp4",
                 "alt": "Video/Mp4 for RotaxLinz",
                 "type": "video/mp4"
             }
@@ -1010,7 +1015,7 @@
     "SainzLaRojas": {
         "images": [
             {
-                "src": "/posts/tracks/SainzLaRojas/650787385327975.mp4",
+                "src": "/posts/tracks/SainzLaRojas/650787385327975FASTLAP.mp4",
                 "alt": "Video/Mp4 for SainzLaRojas",
                 "type": "video/mp4"
             },
@@ -1124,7 +1129,7 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/SouthGarda/SG_ISLAP.mp4",
+                "src": "/posts/tracks/SouthGarda/SG_FASTLAP.mp4",
                 "alt": "Video/Mp4 for SouthGarda",
                 "type": "video/mp4"
             }
@@ -1241,7 +1246,7 @@
                 "type": "image"
             },
             {
-                "src": "/posts/tracks/WallRav/WAllRavISLAP.mp4",
+                "src": "/posts/tracks/WallRav/WAllRavFASTLAP.mp4",
                 "alt": "Video/Mp4 for WallRav",
                 "type": "video/mp4"
             }
