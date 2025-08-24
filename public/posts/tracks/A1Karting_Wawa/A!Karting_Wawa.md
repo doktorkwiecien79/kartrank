@@ -48,6 +48,16 @@ Wskazałbym Wam właśnie A1.
 
 ---
 
+# Nowe wózki, nowe nitki - update sierpień 2025
+
+---
+
+Ponieważ na A1 mam względnie dobry dojazd to bywam tam od czasu do czasu, zatem warto wspomnieć o zmianach, które tam zachodzą. A są one znaczące - obydwie nitki zostały zmienione oraz jest komplet nowych wózków - elektrycznych na małych torze i spalinowych na dużym! Przede wszystkim myślę, że świadczy to o staraniu właściciela, aby obiekt był na wysokim poziomie. Mała nitka jak mała nitka, cudów tam się nie spodziewajcie, elektryki są dość wolne, ale mają "boosta", który trochę uatrakcyjnia całą zabawę. Stara długa nitka była naprawdę dobra, ale teraz idzie to w jeszcze lepszym kierunku. Jest rampa, całość jest dość szybka i techniczna zarazem. Piszę "idzie" bo ma dojść jeszcze część zewnętrzna i wtedy w ogóle może być rakieta! Stare wózki były bardzo nierówne, nowe są jak od linijki, więc nie musicie się martwić, który numer dostaniecie. Niestety mi te wózki mega nie podchodzą. Zacznijmy od prowadzenia, które jest bardzo podsterowne. Do tego akurat w pozycji, która jest dla mnie optymalna dolna część łydki opiera mi się o drążek i po 3 przejazdach nawet w długich skarpetach mam giga siniaki :( Wreszcie są nie wiadomo komu potrzebne pasy, które jedynie wrzynają się w szyję. Szkoda, bo wierzę, że intencja była dobra i gdyby to były nowe SODI, to tor mógłby naprawdę dostać wysoką ocenę. Mimo to uważam, że jest progress i podnoszę ją z 7.5 na 8. Onboard macie na dole strony. 
+
+
+
+---
+
 **[Link do strony Toru <click>](https://a1karting.pl/)**
 
 ---
@@ -64,7 +74,7 @@ date: 2024-06-12
 
 ---
 
-score: 7.5
+score: 8.0
 
 ---
 
