@@ -1535,6 +1535,16 @@
     "karting932": {
         "images": [
             {
+                "src": "/posts/tracks/karting932/20251225_181845.jpg",
+                "alt": "Image for karting932",
+                "type": "image"
+            },
+            {
+                "src": "/posts/tracks/karting932/20251225_184506.mp4",
+                "alt": "Video/Mp4 for karting932",
+                "type": "video/mp4"
+            },
+            {
                 "src": "/posts/tracks/karting932/alicante1cover.jpg",
                 "alt": "Image for karting932",
                 "type": "image"
@@ -1543,6 +1553,11 @@
                 "src": "/posts/tracks/karting932/alicante2.jpg",
                 "alt": "Image for karting932",
                 "type": "image"
+            },
+            {
+                "src": "/posts/tracks/karting932/FASTLAPalicante.mp4",
+                "alt": "Video/Mp4 for karting932",
+                "type": "video/mp4"
             },
             {
                 "src": "/posts/tracks/karting932/IMG_7256.jpg",
@@ -1556,8 +1571,14 @@
             }
         ],
         "textParts": [
-            "Mi\u0142a niespodzianka w turystycznym Alicante!",
-            "Po\u0142udniowcy z oczywistych wzgl\u0119d\u00f3w wi\u0119kszo\u015b\u0107 tor\u00f3w maj\u0105 otwartych, a tu nowy zamkni\u0119ty obiekt - musia\u0142em zatem go odwiedzi\u0107 \ud83d\ude42 \nAlicante jest zdecydowanie turystycznym miastem, cho\u0107 na tyle przyjemnym, \u017ce chcemy z Ma\u0142gosi\u0105 tam wraca\u0107. Tym bardziej musi by\u0107 dobry obiekt kartingowy! \n\nW Alicante jest nowiutki \u2013 schody na recepcj\u0119 to by\u0142 jeszcze go\u0142y beton, ale ca\u0142y obiekt naprawd\u0119 zosta\u0142 przyjemnie zaplanowany. Tor oferuje w\u00f3zki elektryczne - ja co prawda wol\u0119 spalinowe, ale te by\u0142y w perfekcyjnym stanie i zapewni\u0142y fajny trening (w elektryku nale\u017cy unika\u0107 ca\u0142kowitego puszczenia gazu bo wtedy gokart bardzo zwalnia). To jeden z nielicznych tor\u00f3w, gdzie nie by\u0142o problemu losowego w\u00f3zka, bo po prostu wszystkie by\u0142y nowiute\u0144kie. Co wi\u0119cej, za 50 euro by\u0142y 3 przejazdy, wi\u0119c jak na ten standard to naprawd\u0119 dobra cena. \n\nA teraz niespodzianka, kt\u00f3ra uczyni\u0142a to wyj\u015bcie wyj\u0105tkowo fajnym. By\u0142em tam w sobot\u0119 rano, nie by\u0142o nikogo innego i manager (mimo \u017ce nie m\u00f3wi\u0142 s\u0142owa po angielsku \ud83d\ude09,  a ja dopiero po wizycie w Alicante zacz\u0105\u0142em si\u0119 uczy\u0107 hiszpa\u0144skiego) zaproponowa\u0142 mi wsp\u00f3lny race! \ud83d\ude42 Wow, uwielbiam ich pasj\u0119 do tego sportu. \n\nMinusy? Do\u015b\u0107 kr\u00f3tka nitka, kt\u00f3ra pomimo do\u015b\u0107 ciasnej konfiguracji jest jedynie na 26 sekund. Wyobra\u017cam sobie, \u017ce przy 8-10 w\u00f3zkach (szczeg\u00f3lnie z przypadkowymi osobami) frajda z jazdy mo\u017ce tam szybko znikn\u0105\u0107. Ale i tak chc\u0119 tam wr\u00f3ci\u0107!"
+            "Mi\u0142a niespodzianka w turystycznym Alicante! (i mieszane drugie wra\u017cenie)",
+            "Po\u0142udniowcy z oczywistych wzgl\u0119d\u00f3w wi\u0119kszo\u015b\u0107 tor\u00f3w maj\u0105 otwartych, a tu nowy zamkni\u0119ty obiekt - musia\u0142em zatem go odwiedzi\u0107 \ud83d\ude42 \nAlicante jest zdecydowanie turystycznym miastem, cho\u0107 na tyle przyjemnym, \u017ce chcemy z Ma\u0142gosi\u0105 tam wraca\u0107. Tym bardziej musi by\u0107 dobry obiekt kartingowy!",
+            "W Alicante jest nowiutki \u2013 schody na recepcj\u0119 to by\u0142 jeszcze go\u0142y beton, ale ca\u0142y obiekt naprawd\u0119 zosta\u0142 przyjemnie zaplanowany. Tor oferuje w\u00f3zki elektryczne - ja co prawda wol\u0119 spalinowe, ale te by\u0142y w perfekcyjnym stanie i zapewni\u0142y fajny trening (w elektryku nale\u017cy unika\u0107 ca\u0142kowitego puszczenia gazu bo wtedy gokart bardzo zwalnia). To jeden z nielicznych tor\u00f3w, gdzie nie by\u0142o problemu losowego w\u00f3zka, bo po prostu wszystkie by\u0142y nowiute\u0144kie. Co wi\u0119cej, za 50 euro by\u0142y 3 przejazdy, wi\u0119c jak na ten standard to naprawd\u0119 dobra cena.",
+            "A teraz niespodzianka, kt\u00f3ra uczyni\u0142a to wyj\u015bcie wyj\u0105tkowo fajnym. By\u0142em tam w sobot\u0119 rano, nie by\u0142o nikogo innego i manager (mimo \u017ce nie m\u00f3wi\u0142 s\u0142owa po angielsku \ud83d\ude09,  a ja dopiero po wizycie w Alicante zacz\u0105\u0142em si\u0119 uczy\u0107 hiszpa\u0144skiego) zaproponowa\u0142 mi wsp\u00f3lny race! \ud83d\ude42 Wow, uwielbiam ich pasj\u0119 do tego sportu.",
+            "Minusy? Do\u015b\u0107 kr\u00f3tka nitka, kt\u00f3ra pomimo do\u015b\u0107 ciasnej konfiguracji jest jedynie na 26 sekund. Wyobra\u017cam sobie, \u017ce przy 8-10 w\u00f3zkach (szczeg\u00f3lnie z przypadkowymi osobami) frajda z jazdy mo\u017ce tam szybko znikn\u0105\u0107. Ale i tak chc\u0119 tam wr\u00f3ci\u0107!",
+            "(UPDATE 25.12.2025)\n\nNo i wr\u00f3ci\u0142em \u2013 tak do samego Alicante, jak i na tor. Od razu pochwal\u0119 obs\u0142ug\u0119 za mo\u017cliwo\u015b\u0107 skorzystania z kamery. Pozwolili mi przyklei\u0107 mocowanie do ich kasku (uchwyt po prostu im zostawi\u0142em). Fajnie by\u0142o wr\u00f3ci\u0107, bo jak pisz\u0119 wy\u017cej, wcze\u015bniej by\u0142em w pustym, nowo-otwartym obiekcie. Teraz by\u0142em w miejscu pe\u0142nym ludzi (jest tam te\u017c bilard, pi\u0142karzyki etc.) po 3 latach, a wi\u0119c ju\u017c pojawi\u0142y si\u0119 zniszczenia.",
+            "T\u0142ok nie przeszkadza\u0142, wpuszczaj\u0105 na kr\u00f3tki tor (ma on w zasadzie 3 zakr\u0119ty, przy czy pierwszy z mocnym hamowaniem z \u0142uku jest fajnym miejscem treningowym) rozs\u0105dnie. Pierwszy zgrzyt pojawi\u0142 si\u0119, gdy na pierwsz\u0105 sesj\u0119 wypu\u015bcili nas na ograniczonej mocy. Junior mia\u0142 wykupione tylko 2 przejazdy, a ten pierwszy w zasadzie si\u0119 przetoczyli\u015bmy\u2026 Natomiast wi\u0119kszy problem to w\u00f3zki. Poprzednio je chwali\u0142em i trudno si\u0119 dziwi\u0107, bo by\u0142y nowiutkie. Teraz mia\u0142y bardzo przykr\u0105 charakterystyk\u0119 \u2013 traci\u0142y odczuwalnie moc po 4-5 k\u00f3\u0142kach! Obs\u0142uga powiedzia\u0142a mi, \u017ce to kwestia zu\u017cytych ju\u017c baterii. Nigdy nie by\u0142em fanem elektrycznych kart\u00f3w, ale z czym\u015b takim jeszcze si\u0119 nie spotka\u0142em.",
+            "Jeszcze nigdy nie obni\u017cy\u0142em oceny po kolejnej wizycie, ale tu jest to niestety zasadne. Powiem Wam co\u015b \u2013 kilka lat temu by\u0142em zachwycony hiszpa\u0144skimi torami (by\u0107 mo\u017ce dlatego, \u017ce zacz\u0105\u0142em od rewelacyjnego toru w Madrycie), teraz doceniam to, \u017ce maj\u0105 ich du\u017co, ale jako\u015b\u0107 zaczyna mocno odstawa\u0107 od tego, co mamy w PL (cho\u0107 paradoksalnie zazwyczaj te\u017c jest taniej)."
         ],
         "YTlink": []
     },
